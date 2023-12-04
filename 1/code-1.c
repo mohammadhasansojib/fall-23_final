@@ -8,7 +8,6 @@ of the array should be in left side of the array]
 */
 
 int main(){
-
     int length;
     printf("Enter the length of array: ");
     scanf("%d", &length);
