@@ -5,7 +5,7 @@ int main()
 {
     char str1[100], str2[100];
     char *p1, *p2;
-    printf("Enter a string: \n");
+    printf("Enter a string: ");
     gets(str1);
 
     p1 = str1 + strlen(str1)-1;
