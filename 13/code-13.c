@@ -2,7 +2,6 @@
 
 
 void decimal_to_binary(int decimal){
-
     if(decimal == 1){
         printf("1");
     }else{
@@ -22,6 +21,7 @@ int main(){
     if(decimal < 0){
         printf("enter decimal number greater than 0");
     }else{
+        printf("binary: ");
         decimal_to_binary(decimal);
     }
 
