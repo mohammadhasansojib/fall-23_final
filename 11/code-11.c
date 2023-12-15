@@ -11,7 +11,7 @@ int main(){
 
     for(c = 'a'; c <= 'z'; c++){
         counter = 0;
-        for(int i = 0; str[i]!=NULL; i++){
+        for(int i = 0; str[i]!= '\0'; i++){
             if(c==str[i]){
                 counter++;
 
@@ -22,11 +22,9 @@ int main(){
 
             }
         }
-
     }
 
     printf("\n%c has maximun time(%d times)\n", maxchar,max);
-
 
     return 0;
 }
