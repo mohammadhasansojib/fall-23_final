@@ -19,9 +19,9 @@ int main(){
     ptr2 = &b;
     ptr3 = &c;
 
-    printf("before swapping- a = %d, b = %d, c = %d\n", *ptr1,*ptr2,*ptr3);
+    printf("before swapping- a = %d, b = %d, c = %d\n", a,b,c);
     swipping(ptr1,ptr2,ptr3);
-    printf("after swapping- a = %d, b = %d, c = %d\n", *ptr1,*ptr2,*ptr3);
+    printf("after swapping- a = %d, b = %d, c = %d\n", a,b,c);
 
     return 0;
 }
