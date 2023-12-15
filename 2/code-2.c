@@ -13,7 +13,7 @@ int main(){
             for(int j = i; j < len; j++){
                 mychar[j] = mychar[j+1];
             }
-
+            len--;
         }
     }
 
